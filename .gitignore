@@ -1,7 +1,7 @@
 .idea/
 *.user
 *.cache
-DoomBubblesMod.sln
+ArmorSocialMod.sln
 .vs/config/applicationhost.config
 *.suo
 *.dll

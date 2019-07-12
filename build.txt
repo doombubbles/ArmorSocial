@@ -1,0 +1,4 @@
+author = doombubbles
+version = 0.1.3
+displayName = ArmorSocial
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*

@@ -1,7 +1,7 @@
 .idea/
 *.user
 *.cache
-ArmorSocialMod.sln
+ArmorSocial.sln
 .vs/config/applicationhost.config
 *.suo
 *.dll

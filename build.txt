@@ -1,5 +1,5 @@
 author = doombubbles
-version = 0.1.4
+version = 0.2
 displayName = ArmorSocial
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
 homepage=https://github.com/doombubbles/ArmorSocial

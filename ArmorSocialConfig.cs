@@ -30,15 +30,11 @@ namespace ArmorSocial
 
         public override bool AcceptClientChanges(ModConfig pendingConfig, int whoAmI, ref string message)
         {
-            foreach (var remoteClient in Netplay.Clients)
-            {
-                if (remoteClient.Socket.GetRemoteAddress().IsLocalHost() && remoteClient.Id == whoAmI)
-                {
-                    return true;
-                }
+            if (whoAmI == 0) {
+                message = "Changes accepted!";
+                return true;
             }
-
-            message = "Only localhost can change";
+            message = "You have no rights to change mod Configuration.";
             return false;
         }
     }

@@ -6,6 +6,7 @@ Some set bonuses will stack with themselves, others won't. Anyways, I think it's
 
 Shroomite Stealth is hard-coded into the game to override Vortex stealth. Sorry.
 
+v0.2.1 Fix Multiplayer mod config
 v0.2 Added Mod Configuration for different modes
 v0.1.4 Update homepage and readme
 v0.1.3 Fix another tooltip issue

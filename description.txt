@@ -1,11 +1,19 @@
 AntiSocial mod but for armor. Now with customizable features.
 
+Modes:
+Set Bonuses Only: Only a full Vanity Set Bonus will give you any benefit
+All Except Defense: All the bonuses of Vanity Armor applied except for defense
+Everything: Self explanatory lol
+
+Spectre Healing Balance: Toggle for Spectre Healing Set Bonus in Vanity to reduce magic damage by 40% when on Set Bonuses Only mode
+
 Some Notes:
 
 Some set bonuses will stack with themselves, others won't. Anyways, I think it's more fun to just use different ones.
 
 Shroomite Stealth is hard-coded into the game to override Vortex stealth. Sorry.
 
+v0.2.2 Fix Spectre Healing Balance
 v0.2.1 Fix Multiplayer mod config
 v0.2 Added Mod Configuration for different modes
 v0.1.4 Update homepage and readme

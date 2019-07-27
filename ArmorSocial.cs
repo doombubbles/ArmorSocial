@@ -68,7 +68,7 @@ namespace ArmorSocial
 
 			orig(self, i);
 			self.GetModPlayer<ArmorSocialPlayer>().secondSetBonus = self.setBonus;
-			if (self.head == 101 && self.body == 66 && self.body == 55 && ArmorSocialConfig.BalanceSpectreHealing && ArmorSocialConfig.ArmorSocialMode == setBonusOnly)
+			if (self.head == 101 && self.body == 66 && self.legs == 55 && ArmorSocialConfig.BalanceSpectreHealing && ArmorSocialConfig.ArmorSocialMode == setBonusOnly)
 			{
 				self.magicDamage -= .4f;
 			}
